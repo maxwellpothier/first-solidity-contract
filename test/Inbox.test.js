@@ -32,7 +32,7 @@ describe("Inbox", () => {
 
 	it("has a default message", async () => {
 		const message = await inbox.methods.message().call();
-		console.log(message)
+		console.log(message);
 		assert.equal(message, "Hi there!");
 	})
 
